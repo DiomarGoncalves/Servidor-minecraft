@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "sorter:sorting_wand",
+	  "menu_category":{
+		  "category": "items"
+	  }
+    },
+
+    "components": {
+	"minecraft:max_stack_size":{
+		"value": 1
+	},
+	"minecraft:use_modifiers":{
+		"use_duration": 999
+	},
+      "minecraft:food": {
+        "nutrition": 1,
+		"can_always_eat": true
+      },
+	  "minecraft:cooldown": {
+		"category": "wand",
+		"duration": 0.5
+	},
+	"minecraft:icon": "sorting_wand",
+	"minecraft:display_name":{
+		"value": "Sorting Wand"
+	},
+	"minecraft:custom_components": [
+		"sorter:sort"
+	]
+	}
+  }
+}

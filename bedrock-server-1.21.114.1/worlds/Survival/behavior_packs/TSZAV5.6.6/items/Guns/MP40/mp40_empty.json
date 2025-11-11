@@ -1,0 +1,27 @@
+{
+   "format_version":"1.20.50",
+   "minecraft:item":{
+      "description":{
+         "identifier":"true:mp40_empty",
+         "menu_category":{
+            "category":"equipment",
+            "group":"itemGroup.name.arrow"
+         }
+      },
+      "components":{
+         "minecraft:tags":{
+            "tags":[
+               "gun"
+            ]
+         },
+         "minecraft:max_stack_size":1,
+         "minecraft:icon":{
+            "texture":"mp40"
+         },
+         "minecraft:display_name":{
+            "value":"§7[MP-40]§f\n§c(EMPTY)"
+         },       
+         "minecraft:hand_equipped":true
+      }    
+   }
+}

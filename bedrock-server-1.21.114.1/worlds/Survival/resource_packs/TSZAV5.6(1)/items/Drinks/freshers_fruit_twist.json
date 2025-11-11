@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:freshers_fruit_twist",
+      "category": "Item"
+    },
+    
+    "components": {
+      "minecraft:icon": "freshers_fruit_twist"
+    }
+  }
+}

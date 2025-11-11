@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:wipeout_extra_toilet_paper",
+      "category": "Item"
+    },
+    
+    "components": {
+      "minecraft:icon": "wipeout_extra_toilet_paper"
+    }
+  }
+}

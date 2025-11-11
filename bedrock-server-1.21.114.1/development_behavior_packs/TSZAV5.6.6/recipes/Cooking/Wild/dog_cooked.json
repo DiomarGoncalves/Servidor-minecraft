@@ -1,0 +1,15 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:dog_cooked"
+      },
+      "tags":[
+         "furnace",
+         "smoker",
+         "campfire"
+      ],
+      "input":"true:dog_raw",
+      "output":"true:dog_cooked"
+   }
+}

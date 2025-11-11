@@ -1,0 +1,23 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shapeless":{
+      "description":{
+         "identifier":"true:cigarette"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "ingredients":[
+         {
+            "item":"true:tobacco_leaf"
+         },
+         {
+            "item":"minecraft:paper"
+         }
+      ],
+      "result":{
+         "item":"true:cigarette",
+         "count":3
+      }
+   }
+}

@@ -1,0 +1,41 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.vortex_mixer.idle": {
+			"loop": true
+		},
+		"animation.vortex_mixer.spinning": {
+			"loop": true,
+			"animation_length": 0.3333,
+			"bones": {
+				"base": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0833": [0, 0, -0.3],
+						"0.1667": [0, 0, 0],
+						"0.25": [0, 0, 0.3],
+						"0.3333": [0, 0, 0]
+					}
+				},
+				"sensor": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0833": [-1.5, 0, 0],
+						"0.1667": [0, 0, 0],
+						"0.25": [-1.5, 0, 0],
+						"0.3333": [0, 0, 0]
+					}
+				},
+				"mixer": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.3333": [0, 720, 0]
+					}
+				},
+				"vial": {
+					"rotation": [0, 0, -1]
+				}
+			}
+		}
+	}
+}

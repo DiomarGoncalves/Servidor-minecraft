@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:crow_cooked",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "crow_cooked"
+    }
+  }
+}

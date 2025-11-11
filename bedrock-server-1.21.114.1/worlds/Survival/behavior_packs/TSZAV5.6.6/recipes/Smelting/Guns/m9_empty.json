@@ -1,0 +1,13 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:m9_empty"
+      },
+      "tags":[
+         "furnace"
+      ],
+      "input":"true:m9_empty",
+      "output":"minecraft:iron_nugget"
+   }
+}

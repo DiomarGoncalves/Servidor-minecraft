@@ -1,0 +1,106 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_name": "atlas.items",
+    "texture_data": {
+        //Better-Furnaces
+        "better_furnaces:arrow_0": {
+            "textures": "textures/Better-Furnaces/gui/arrow_0"
+        },
+        "better_furnaces:arrow_1": {
+            "textures": "textures/Better-Furnaces/gui/arrow_1"
+        },
+        "better_furnaces:arrow_2": {
+            "textures": "textures/Better-Furnaces/gui/arrow_2"
+        },
+        "better_furnaces:arrow_3": {
+            "textures": "textures/Better-Furnaces/gui/arrow_3"
+        },
+        "better_furnaces:arrow_4": {
+            "textures": "textures/Better-Furnaces/gui/arrow_4"
+        },
+        "better_furnaces:arrow_5": {
+            "textures": "textures/Better-Furnaces/gui/arrow_5"
+        },
+        "better_furnaces:arrow_6": {
+            "textures": "textures/Better-Furnaces/gui/arrow_6"
+        },
+        "better_furnaces:arrow_7": {
+            "textures": "textures/Better-Furnaces/gui/arrow_7"
+        },
+        "better_furnaces:arrow_8": {
+            "textures": "textures/Better-Furnaces/gui/arrow_8"
+        },
+        "better_furnaces:arrow_9": {
+            "textures": "textures/Better-Furnaces/gui/arrow_9"
+        },
+        "better_furnaces:flame_0": {
+            "textures": "textures/Better-Furnaces/gui/flame_0"
+        },
+        "better_furnaces:flame_1": {
+            "textures": "textures/Better-Furnaces/gui/flame_1"
+        },
+        "better_furnaces:flame_2": {
+            "textures": "textures/Better-Furnaces/gui/flame_2"
+        },
+        "better_furnaces:flame_3": {
+            "textures": "textures/Better-Furnaces/gui/flame_3"
+        },
+        "better_furnaces:flame_4": {
+            "textures": "textures/Better-Furnaces/gui/flame_4"
+        },
+        "better_furnaces:flame_5": {
+            "textures": "textures/Better-Furnaces/gui/flame_5"
+        },
+        "better_furnaces:flame_6": {
+            "textures": "textures/Better-Furnaces/gui/flame_6"
+        },
+        "better_furnaces:flame_7": {
+            "textures": "textures/Better-Furnaces/gui/flame_7"
+        },
+        "better_furnaces:flame_8": {
+            "textures": "textures/Better-Furnaces/gui/flame_8"
+        },
+        "better_furnaces:flame_9": {
+            "textures": "textures/Better-Furnaces/gui/flame_9"
+        },
+        "better_furnaces:blue_flame_1": {
+            "textures": "textures/Better-Furnaces/gui/blue_flame_1"
+        },
+        "better_furnaces:blue_flame_2": {
+            "textures": "textures/Better-Furnaces/gui/blue_flame_2"
+        },
+        "better_furnaces:blue_flame_3": {
+            "textures": "textures/Better-Furnaces/gui/blue_flame_3"
+        },
+        "better_furnaces:blue_flame_4": {
+            "textures": "textures/Better-Furnaces/gui/blue_flame_4"
+        },
+        "better_furnaces:blue_flame_5": {
+            "textures": "textures/Better-Furnaces/gui/blue_flame_5"
+        },
+        "better_furnaces:blue_flame_6": {
+            "textures": "textures/Better-Furnaces/gui/blue_flame_6"
+        },
+        "better_furnaces:blue_flame_7": {
+            "textures": "textures/Better-Furnaces/gui/blue_flame_7"
+        },
+        "better_furnaces:blue_flame_8": {
+            "textures": "textures/Better-Furnaces/gui/blue_flame_8"
+        },
+        "better_furnaces:blue_flame_9": {
+            "textures": "textures/Better-Furnaces/gui/blue_flame_9"
+        },
+        "better_furnaces:instant_upgrade": {
+            "textures": "textures/Better-Furnaces/items/instant_upgrade"
+        },
+        "better_furnaces:speed_upgrade": {
+            "textures": "textures/Better-Furnaces/items/speed_upgrade"
+        },
+        "better_furnaces:fuel_upgrade": {
+            "textures": "textures/Better-Furnaces/items/fuel_upgrade"
+        },
+        "better_furnaces:experience_upgrade": {
+            "textures": "textures/Better-Furnaces/items/experience_upgrade"
+        }
+    }
+}

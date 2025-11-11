@@ -1,0 +1,20 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shapeless":{
+      "description":{
+         "identifier":"true:tshirt_black"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "ingredients":[
+         {
+            "item":"true:tshirt_black"
+         }
+      ],
+      "result":{
+         "item":"minecraft:string",
+         "count":2
+      }
+   }
+}

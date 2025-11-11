@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "extra_utilities:paintbrush"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"A  ",
+			" B ",
+			"  B"
+		],
+		"key": {
+			"A": {
+				"item": "minecraft:string",
+				"data": 0
+			},
+			"B": {
+				"item": "minecraft:stick",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "extra_utilities:paintbrush",
+				"data": 0,
+				"count": 1
+			}
+		]
+	}
+}

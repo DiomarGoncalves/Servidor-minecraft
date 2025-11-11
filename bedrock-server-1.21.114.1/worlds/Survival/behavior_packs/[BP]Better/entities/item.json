@@ -1,0 +1,55 @@
+{
+  "format_version": "1.16.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "minecraft:item",
+      "is_spawnable": false,
+      "is_summonable": false,
+      "is_experimental": false
+    },
+    "component_groups": {
+      "minecraft:fire_immunity": {
+        "minecraft:damage_sensor": {
+          "triggers": [
+            {
+              "cause": "fire",
+              "deals_damage": false
+            },
+            {
+              "cause": "fire_tick",
+              "deals_damage": false
+            },
+            {
+              "cause": "lava",
+              "deals_damage": false
+            }
+          ]
+        }
+      }
+    },
+    "components": {},
+    "events": {
+      "minecraft:components": {
+        "sequence": [
+          {
+            "filters": {
+              "any_of":[
+                {
+                  "test": "has_tag", 
+                  "subject": "self", 
+                  "operator": "==",
+                  "value": "fire_immunity"
+                }
+              ]
+            },
+            "add": {
+              "component_groups": [
+                "minecraft:fire_immunity" 
+              ]
+            }
+          }
+        ]
+      }
+    }
+  }
+}

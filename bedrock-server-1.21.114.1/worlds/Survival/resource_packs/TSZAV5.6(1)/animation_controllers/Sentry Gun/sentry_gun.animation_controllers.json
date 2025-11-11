@@ -1,0 +1,35 @@
+{
+   "format_version":"1.10.0",
+   "animation_controllers":{
+      "controller.animation.sentry_gun":{
+         "initial_state":"default",
+         "states":{
+            "default":{
+               "animations":[
+                  "empty"
+               ],
+               "blend_transition":1.5,
+               "blend_via_shortest_path":true,
+               "transitions":[
+                  {
+                     "loaded":"query.is_saddled"
+                  }
+               ]
+            },
+            "loaded":{
+               "animations":[
+                  "loaded",
+                  "look_at_target"
+               ],
+               "blend_transition":1.5,
+               "blend_via_shortest_path":true,
+               "transitions":[
+                  {
+                     "default":"!query.is_saddled"
+                  }
+               ]
+            }
+         }
+      }
+   }
+}

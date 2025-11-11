@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:beef_jerky_original_open",
+      "category": "Item"
+    },
+    
+    "components": {
+      "minecraft:icon": "beef_jerky_original_open"
+    }
+  }
+}

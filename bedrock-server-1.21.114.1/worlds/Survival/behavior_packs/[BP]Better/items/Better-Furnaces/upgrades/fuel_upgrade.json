@@ -1,0 +1,24 @@
+{
+  "format_version": "1.21.50",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dustveyn:better_furnaces.fuel_upgrade",
+      "menu_category": {
+        "category": "items"
+      }
+    },
+    "components": {
+      "minecraft:max_stack_size": {
+        "value": 1
+      },
+      "minecraft:icon": {
+        "textures": {
+          "default": "better_furnaces:fuel_upgrade"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "%better_furnaces.fuel_upgrade.name\n%better_furnaces.fuel_upgrade.txt\n§o§9Better Furnaces"
+      }
+    }
+  }
+}

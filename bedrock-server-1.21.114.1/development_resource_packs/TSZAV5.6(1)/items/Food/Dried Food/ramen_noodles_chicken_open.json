@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:ramen_noodles_chicken_open",
+      "category": "Item"
+    },
+    
+    "components": {
+      "minecraft:icon": "ramen_noodles_chicken_open"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+    "namespace": "hud",
+
+    //---------------------------------------------------------------------------
+    // Hud Screen
+    //---------------------------------------------------------------------------
+
+
+     "anim_actionbar_text_alpha_out": {
+        "anim_type": "alpha",
+        "easing": "in_expo",
+        "duration": 3,
+        "from": 1.0,
+        "to": 0,
+        "destroy_at_end": "hud_actionbar_text"
+    },
+    "anim_actionbar_text_background_alpha_out": {
+        "anim_type": "alpha",
+        "easing": "in_expo",
+        "duration": 3,
+        "from": 0,
+        "to": 0,
+        "destroy_at_end": "hud_actionbar_text"
+    },
+    "hud_actionbar_text": {
+        "type": "image",
+        "size": [ "100%c + 12px", "100%c + 5px" ],
+        "offset": [ "49px", "50%-48px" ],
+        /*"texture": "textures/ui/hud_tip_text_background",*/
+        "alpha": "@hud.anim_actionbar_text_background_alpha_out",
+        "controls": [
+            {
+                "actionbar_message": {
+                    "ignored": "$pocket_screen",
+                    "type": "label",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "color": "$tool_tip_text",
+                    "layer": 1,
+                    "text": "$actionbar_text",
+                    "localize": false,
+                    "alpha": "@hud.anim_actionbar_text_alpha_out",
+                    "bindings": [
+                        {
+                            "binding_name": "#is_not_creative_mode",
+                            "binding_name_override": "#visible"
+                        }
+                    ]
+                }
+            },
+            {
+                "actionbar_message_pocket": {
+                    "ignored": "$desktop_screen",
+                    "type": "label",
+                    "anchor_from": "center",
+                    "anchor_to": "center",
+                    "offset": [ "-50%", 0 ],
+                    "color": "$tool_tip_text",
+                    "layer": 1,
+                    "text": "$actionbar_text",
+                    "localize": false,
+                    "alpha": "@hud.anim_actionbar_text_alpha_out",
+                    "bindings": [
+                        {
+                            "binding_name": "#is_not_creative_mode",
+                            "binding_name_override": "#visible"
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
+
+  

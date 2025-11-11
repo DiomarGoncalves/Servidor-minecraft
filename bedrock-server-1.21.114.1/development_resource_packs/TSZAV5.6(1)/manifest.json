@@ -1,0 +1,30 @@
+{
+   "format_version":2,
+   "header":{
+      "description":"§7§oCreated by Four Worlds Studios",
+      "name":"§6TSZA V5.6.6 [Resource Pack]",
+      "uuid":"a5e0fdc6-0e7e-4499-96a5-2315840e2aa8",
+      "version":[
+         0,
+         0,
+         1
+      ],
+      "min_engine_version":[
+         1,
+         21,
+         0
+      ]
+   },
+   "modules":[
+      {
+         "description":"§7§oCreated by Four Worlds Studios",
+         "type":"resources",
+         "uuid":"9fa94d4f-258a-4f26-9060-6bbd0982ee56",
+         "version":[
+            0,
+            0,
+            1
+         ]
+      }
+   ]
+}

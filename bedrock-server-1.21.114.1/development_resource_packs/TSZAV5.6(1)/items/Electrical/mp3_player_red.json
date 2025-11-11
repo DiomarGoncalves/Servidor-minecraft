@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:mp3_player_red",
+      "category": "Item"
+    },
+    
+    "components": {
+      "minecraft:icon": "mp3_player_red"
+    }
+  }
+}

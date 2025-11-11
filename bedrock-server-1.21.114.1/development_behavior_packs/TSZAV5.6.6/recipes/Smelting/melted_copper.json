@@ -1,0 +1,14 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:melted_copper"
+      },
+      "tags":[
+         "furnace",
+         "smoker"
+      ],
+      "input":"minecraft:copper_ingot",
+      "output":"true:melted_copper"
+   }
+}

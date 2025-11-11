@@ -1,0 +1,21 @@
+{
+   "format_version":"1.10",
+   "minecraft:attachable":{
+      "description":{
+         "identifier":"true:ak47_scope_6x_empty",
+         "materials":{
+            "default":"entity_alphatest",
+            "enchanted":"entity_alphatest_glint"
+         },
+         "textures":{
+            "default":"textures/guns/ak47/ak47"
+         },
+         "geometry":{
+            "default":"geometry.ak47_scope_6x"
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

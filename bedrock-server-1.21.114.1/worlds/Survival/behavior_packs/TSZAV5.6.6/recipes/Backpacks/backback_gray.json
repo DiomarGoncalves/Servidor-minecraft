@@ -1,0 +1,31 @@
+{
+   "format_version":"1.16",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"true:backpack_gray"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "B#B",
+         "B#B",
+         "#A#"
+      ],
+      "key":{
+         "#":{
+            "item":"minecraft:leather"
+         },
+         "A":{
+            "item":"true:paintbrush_gray"
+         },
+         "B":{
+            "item":"minecraft:string"
+         }
+      },
+      "result":{
+         "item":"true:backpack_gray_item",
+         "count":1
+      }
+   }
+}

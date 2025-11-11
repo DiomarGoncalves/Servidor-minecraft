@@ -1,0 +1,25 @@
+{
+   "format_version":"1.10",
+   "minecraft:item":{
+      "description":{
+         "identifier":"true:ramen_noodles_chicken_open"
+      },
+      "components":{
+         "minecraft:use_duration":32.0,
+         "minecraft:max_stack_size":64,
+         "minecraft:food":{
+            "nutrition":3,
+            "saturation_modifier":"poor",
+            "can_always_eat":false,
+            "effects":[
+               {
+                  "name":"hunger",
+                  "chance":0.70,
+                  "duration":10,
+                  "amplifier":1
+               }
+            ]
+         }
+      }
+   }
+}

@@ -1,0 +1,21 @@
+{
+   "format_version":"1.10",
+   "minecraft:attachable":{
+      "description":{
+         "identifier":"true:hk416_scope_4x_empty",
+         "materials":{
+            "default":"entity_alphatest",
+            "enchanted":"entity_alphatest_glint"
+         },
+         "textures":{
+            "default":"textures/guns/hk416/hk416"
+         },
+         "geometry":{
+            "default":"geometry.hk416_scope_4x"
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

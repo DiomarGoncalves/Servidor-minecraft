@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.micro_uzi": {
+      "textures": [
+        "texture.micro_uzi"
+      ],
+      "geometry": "geometry.micro_uzi",
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ]
+    }
+  }
+}

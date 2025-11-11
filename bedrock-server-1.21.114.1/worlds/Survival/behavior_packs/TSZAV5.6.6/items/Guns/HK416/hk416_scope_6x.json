@@ -1,0 +1,35 @@
+{
+   "format_version":"1.20.80",
+   "minecraft:item":{
+      "description":{
+         "identifier":"true:hk416_scope_6x",
+         "menu_category":{
+            "category":"equipment",
+            "group":"itemGroup.name.equipment"
+         }
+      },
+      "components":{
+         "minecraft:tags":{
+            "tags":[
+               "gun"
+            ]
+         },
+         "minecraft:icon":"hk416_scope_6x",
+         "minecraft:hand_equipped":true,
+         "minecraft:max_stack_size":1,
+         "minecraft:use_modifiers":{
+            "use_duration":3600
+         },
+         "minecraft:food":{
+            "can_always_eat":true
+         },
+         "minecraft:cooldown":{
+            "duration":0.1,
+            "category":"chorusfruit"
+         },    
+         "minecraft:display_name":{
+            "value":"§7[HK-416]§f\n§2(6x Scope)§f\n§65.56mm Ammunition\n§bHold for Rapid Fire"
+         }
+      }
+   }
+}

@@ -1,0 +1,13 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:micro_uzi_empty"
+      },
+      "tags":[
+         "furnace"
+      ],
+      "input":"true:micro_uzi_empty",
+      "output":"minecraft:iron_nugget"
+   }
+}

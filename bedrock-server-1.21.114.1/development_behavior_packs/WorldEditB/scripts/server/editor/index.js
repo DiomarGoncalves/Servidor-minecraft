@@ -1,0 +1,1 @@
+import{registerEditorExtension as r}from"@minecraft/server-editor";import{HistoryModule as t}from"./modules/history";import{SelectionModule as e}from"./modules/selection";r("WorldEdit: Bedrock Edition",o=>[new t(o),new e(o)],()=>{},{toolGroupId:"worldedit"});

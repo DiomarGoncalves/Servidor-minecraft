@@ -1,0 +1,33 @@
+{
+   "format_version":"1.16",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"true:scar_l_4x_to_6x"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "",
+         "A",
+         "#"
+      ],
+      "key":{
+         "#":{
+            "item":"true:scar_l_scope_4x"
+         },
+         "A":{
+            "item":"true:scope_6x"
+         }
+      },
+       "result":[
+         {
+            "item":"true:scar_l_scope_6x",
+            "count":1
+         },
+         {
+            "item":"true:scope_4x"
+         }
+      ]
+   }
+}

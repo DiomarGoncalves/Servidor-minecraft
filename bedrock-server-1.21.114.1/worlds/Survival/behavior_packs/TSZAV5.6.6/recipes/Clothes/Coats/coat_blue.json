@@ -1,0 +1,20 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shapeless":{
+      "description":{
+         "identifier":"true:coat_blue"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "ingredients":[
+         {
+            "item":"true:coat_blue"
+         }
+      ],
+      "result":{
+         "item":"minecraft:blue_wool",
+         "count":1
+      }
+   }
+}

@@ -1,0 +1,32 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"true:cow_corpse",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/animals/cow/cow",
+            "skeleton":"textures/entity/animals/cow/skeleton"
+         },
+         "geometry":{
+            "default":"geometry.custom_cow"
+         },
+         "animations":{
+            "dead_1":"animation.cow_corpse.dead_1"
+         },
+         "scripts":{
+            "animate":[
+               {
+                  "dead_1":"query.is_sheared"
+               }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.cow_corpse"
+         ],
+         "enable_attachables":true
+      }
+   }
+}

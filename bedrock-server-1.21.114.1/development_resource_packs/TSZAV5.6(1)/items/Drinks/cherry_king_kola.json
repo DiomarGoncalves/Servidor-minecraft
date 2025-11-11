@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:cherry_king_kola",
+      "category": "Item"
+    },
+    
+    "components": {
+      "minecraft:icon": "cherry_king_kola"
+    }
+  }
+}

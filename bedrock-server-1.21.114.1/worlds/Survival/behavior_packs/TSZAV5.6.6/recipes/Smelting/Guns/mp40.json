@@ -1,0 +1,13 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:mp40"
+      },
+      "tags":[
+         "furnace"
+      ],
+      "input":"true:mp40",
+      "output":"minecraft:iron_nugget"
+   }
+}

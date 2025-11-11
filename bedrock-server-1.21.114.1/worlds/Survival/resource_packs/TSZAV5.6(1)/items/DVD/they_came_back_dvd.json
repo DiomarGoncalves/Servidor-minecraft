@@ -1,0 +1,12 @@
+{
+   "format_version":"1.16",
+   "minecraft:item":{
+      "description":{
+         "identifier":"true:they_came_back_dvd",
+         "category":"Item"
+      },
+      "components":{
+         "minecraft:icon":"they_came_back_dvd"
+      }
+   }
+}

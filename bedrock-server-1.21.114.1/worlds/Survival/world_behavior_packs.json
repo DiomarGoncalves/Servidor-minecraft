@@ -1,0 +1,67 @@
+[
+  {
+    "pack_id": "8b1aa586-0871-2bed-b9e0-47997bc19dd5",
+    "version": [
+      0,
+      5,
+      2
+    ]
+  },
+  {
+    "pack_id": "a8c8869f-322d-4482-ad8f-14e6d49bfbc0",
+    "version": [
+      1,
+      2,
+      0
+    ]
+  },
+  {
+    "pack_id": "0de75483-2ac9-4262-aed5-a625748a81d7",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "pack_id": "2ad834ec-b5c9-43da-9fa5-9ee0f623454d",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "pack_id": "22345678-2234-5678-9012-223456789012",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  },
+  {
+    "pack_id": "08bb68cf-e37f-450f-9845-bf4c5f00de41",
+    "version": [
+      6,
+      3,
+      5
+    ]
+  },
+  {
+    "pack_id": "e8dfb03f-4e3b-4e67-b2d3-c90168740f0a",
+    "subpack": "veincapitator",
+    "version": [
+      2,
+      0,
+      0
+    ]
+  },
+  {
+    "pack_id": "7b49b4e3-65aa-41f2-9836-73e6d1c1b23e",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  }
+]

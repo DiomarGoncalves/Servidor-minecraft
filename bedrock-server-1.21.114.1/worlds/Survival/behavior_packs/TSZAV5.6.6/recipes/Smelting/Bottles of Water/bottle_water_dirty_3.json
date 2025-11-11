@@ -1,0 +1,14 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:bottle_of_water_dirty_3"
+      },
+      "tags":[
+         "furnace",
+         "campfire"
+      ],
+      "input":"true:bottle_of_water_dirty_3",
+      "output":"true:bottle_of_water_3"
+   }
+}

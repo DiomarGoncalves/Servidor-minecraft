@@ -1,0 +1,30 @@
+{
+   "format_version":"1.10",
+   "minecraft:attachable":{
+      "description":{
+         "identifier":"true:scar_l_scope_6x",
+         "materials":{
+            "default":"entity_alphatest",
+            "enchanted":"entity_alphatest_glint"
+         },
+         "textures":{
+            "default":"textures/guns/scar_l/scar_l"
+         },
+         "scripts":{
+            "animate":[
+               "shooting"
+            ]
+         },
+         "animations":{ 
+            "shooting":"controller.animation.gun.shooting",
+            "shoot":"animation.scar_l.shoot"
+         },
+         "geometry":{
+            "default":"geometry.scar_l_scope_6x"
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

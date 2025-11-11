@@ -1,0 +1,58 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"minecraft:villager_v2",
+         "materials":{
+            "default":"villager_v2"
+         },
+         "textures":{    
+            "unskilled":"textures/entity/villagers/unskilled",
+            "farmer":"textures/entity/villagers/farmer",
+            "fisherman":"textures/entity/villagers/fisherman",
+            "shepherd":"textures/entity/villagers/shepherd",
+            "fletcher":"textures/entity/villagers/fletcher",
+            "librarian":"textures/entity/villagers/librarian",
+            "cartographer":"textures/entity/villagers/cartographer",
+            "cleric":"textures/entity/villagers/cleric",
+            "armorer":"textures/entity/villagers/armorer",
+            "weapon_smith":"textures/entity/villagers/weaponsmith",
+            "tool_smith":"textures/entity/villagers/toolsmith",
+            "butcher":"textures/entity/villagers/butcher",
+            "leatherworker":"textures/entity/villagers/leatherworker",
+            "stonemason":"textures/entity/villagers/stonemason",
+            "nitwit":"textures/entity/villagers/nitwit"
+         },
+         "geometry":{
+            "default":"geometry.new_villager"
+         },
+         "scripts":{
+            "scale": "0.9375",
+            "pre_animation":[
+               "variable.num_professions = 15;",
+               "variable.num_tiers = 3;",
+               "variable.profession_index = (query.variant < variable.num_professions ? query.variant : 0);",
+               "variable.level_index = query.trade_tier;"
+            ]
+         },
+         "animations":{
+            "idle":"animation.human.idle",
+            "walking":"animation.human.walking",
+            "look_at_target":"animation.common.look_at_target",
+            "get_in_bed":"animation.villager.get_in_bed"
+         },
+         "animation_controllers":[
+            {
+               "human":"controller.animation.human"
+            }
+         ],
+         "render_controllers":[
+            "controller.render.villager_v2_masked"
+         ],
+         "spawn_egg":{
+            "texture":"spawn_egg_villager"
+         },
+         "enable_attachables":true
+      }
+   }
+}

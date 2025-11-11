@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:rat_cooked",
+      "category": "Nature"
+    },
+    
+    "components": {
+      "minecraft:icon": "rat_cooked"
+    }
+  }
+}

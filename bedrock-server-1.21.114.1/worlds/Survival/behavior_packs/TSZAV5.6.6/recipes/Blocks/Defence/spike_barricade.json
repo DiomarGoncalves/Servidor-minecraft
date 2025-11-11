@@ -1,0 +1,31 @@
+{
+   "format_version":"1.16",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"true:spike_barricade"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "# #",
+         "BAB",
+         "# #"
+      ],
+      "key":{
+         "#":{
+            "item":"minecraft:planks"
+         },
+         "A":{
+            "item":"minecraft:log"
+         },
+         "B":{
+            "item":"minecraft:string"
+         }
+      },
+      "result":{
+         "item":"true:spike_barricade",
+         "count":1
+      }
+   }
+}

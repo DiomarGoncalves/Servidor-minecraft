@@ -1,0 +1,58 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.bicycle.stand": {
+			"loop": true
+		},
+		"animation.bicycle.ride": {
+			"loop": true,
+			"animation_length": 1,
+			"override_previous_animation": true,
+			"bones": {
+				"Wheel": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [90, 0, 0],
+						"0.52": [180, 0, 0],
+						"0.76": [270, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"back_wheel": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [90, 0, 0],
+						"0.52": [180, 0, 0],
+						"0.76": [270, 0, 0],
+						"1.0": [360, 0, 0]
+					}
+				},
+				"big_chain": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.24": [0, -90, 0],
+						"0.52": [0, -180, 0],
+						"0.76": [0, -270, 0],
+						"1.0": [0, -360, 0]
+					}
+				},
+				"bicycle": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.48": [0, -3, 0],
+						"1.0": [0, 0, 0]
+					}
+				}
+			}
+		},
+		"animation.bicycle.no_rider": {
+			"loop": true,
+			"bones": {
+				"bicycle": {
+					"rotation": [0, 0, 70],
+					"position": [-42, 0, 0]
+				}
+			}
+		}
+	}
+}

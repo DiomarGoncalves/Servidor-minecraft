@@ -1,0 +1,42 @@
+{
+  "format_version": 1,
+  "metadata": {
+    "authors": [
+      "DustVeyn"
+    ],
+    "product_type": "addon"
+  },
+  "header": {
+    "description": "pack.description",
+    "name": "[RP] Better Furnaces v1.3",
+    "uuid": "9be8ec8b-cc49-443a-8e17-143304bb840f",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      8,
+      0
+    ]
+  },
+  "modules": [{
+    "description": "pack.description",
+    "type": "resources",
+    "uuid": "2671e476-b775-4d88-b349-73984ab12163",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  }],
+  "dependencies": [{
+    "uuid": "2ad834ec-b5c9-43da-9fa5-9ee0f623454d",
+    "version": [
+      1,
+      0,
+      0
+    ]
+  }]
+}

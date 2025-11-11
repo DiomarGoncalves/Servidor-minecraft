@@ -1,0 +1,29 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "recipe:better_furnaces.obsidian_furnace"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ABA",
+      "BCB",
+      "ABA"
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:obsidian"
+      },
+      "B": {
+        "item": "minecraft:crying_obsidian"
+      },
+      "C": {
+        "item": "dustveyn:better_furnaces.diamond_furnace"
+      }
+    },
+    "result": {
+      "item": "dustveyn:better_furnaces.obsidian_furnace",
+      "count": 1
+    }
+  }
+}

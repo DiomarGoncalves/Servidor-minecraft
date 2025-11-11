@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:beaker_of_blood",
+      "category": "Item"
+    },
+    
+    "components": {
+      "minecraft:icon": "beaker_of_blood"
+    }
+  }
+}

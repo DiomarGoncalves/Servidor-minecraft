@@ -1,0 +1,12 @@
+{
+   "format_version":"1.16",
+   "minecraft:item":{
+      "description":{
+         "identifier":"true:twd_season_10",
+         "category":"Item"
+      },
+      "components":{
+         "minecraft:icon":"twd_season_10"
+      }
+   }
+}

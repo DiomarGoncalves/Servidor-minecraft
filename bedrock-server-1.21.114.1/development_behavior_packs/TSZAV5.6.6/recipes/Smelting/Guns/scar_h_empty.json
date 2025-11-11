@@ -1,0 +1,13 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:scar_h_empty"
+      },
+      "tags":[
+         "furnace"
+      ],
+      "input":"true:scar_h_empty",
+      "output":"minecraft:iron_nugget"
+   }
+}

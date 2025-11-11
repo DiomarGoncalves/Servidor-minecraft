@@ -1,0 +1,20 @@
+{
+   "format_version":"1.20.50",
+   "minecraft:item":{
+      "description":{
+         "identifier":"true:ammo_556mm",
+         "menu_category":{
+            "category":"equipment",
+            "group":"itemGroup.name.equipment"
+         }
+      },
+      "components":{
+         "minecraft:display_name":{
+            "value":"[5.56mm Ammunition]"
+         },
+         "minecraft:icon":{
+            "texture":"ammo_medium"
+         }
+      }
+   }
+}

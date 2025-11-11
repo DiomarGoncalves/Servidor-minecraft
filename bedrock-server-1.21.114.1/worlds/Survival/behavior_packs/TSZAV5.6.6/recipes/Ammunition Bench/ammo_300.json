@@ -1,0 +1,28 @@
+{
+   "format_version":"1.16",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"true:ammo_300"
+      },
+      "tags":[
+         "ammunition_bench"
+      ],
+      "pattern":[
+         "###",
+         "###",
+         "AAA"
+      ],
+      "key":{
+         "#":{
+            "item":"minecraft:gunpowder"
+         },
+         "A":{
+            "item":"true:melted_copper"
+         }
+      },
+      "result":{
+         "item":"true:ammo_300",
+         "count":1
+      }
+   }
+}

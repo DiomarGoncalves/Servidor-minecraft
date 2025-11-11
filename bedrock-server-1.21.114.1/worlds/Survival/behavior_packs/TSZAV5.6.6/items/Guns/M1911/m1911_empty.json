@@ -1,0 +1,27 @@
+{
+   "format_version":"1.20.50",
+   "minecraft:item":{
+      "description":{
+         "identifier":"true:m1911_empty",
+         "menu_category":{
+            "category":"equipment",
+            "group":"itemGroup.name.arrow"
+         }
+      },
+      "components":{
+         "minecraft:tags":{
+            "tags":[
+               "gun"
+            ]
+         },
+         "minecraft:max_stack_size":1,
+         "minecraft:icon":{
+            "texture":"m1911"
+         },
+         "minecraft:display_name":{
+            "value":"§7[Colt M1911]§f\n§c(EMPTY)"
+         },       
+         "minecraft:hand_equipped":true
+      }    
+   }
+}

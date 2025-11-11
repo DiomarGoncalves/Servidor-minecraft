@@ -1,0 +1,14 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:empty_food_tin"
+      },
+      "tags":[
+         "furnace",
+         "smoker"
+      ],
+      "input":"true:empty_food_tin",
+      "output":"minecraft:iron_nugget"
+   }
+}

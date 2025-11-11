@@ -1,0 +1,32 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"true:proximity_mine",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/machines/proximity_mine/proximity_mine_off",
+            "proximity_mine_on":"textures/machines/proximity_mine/proximity_mine_on"
+         },
+         "geometry":{
+            "default":"geometry.proximity_mine"
+         },
+         "animations":{
+            "block_alignment":"animation.rotation.block_alignment"
+         },
+         "scripts":{
+            "animate":[
+               "block_alignment"
+            ]
+         },
+         "render_controllers":[
+            "controller.render.proximity_mine"
+         ],
+         "spawn_egg":{
+            "texture":"proximity_mine"
+         }
+      }
+   }
+}

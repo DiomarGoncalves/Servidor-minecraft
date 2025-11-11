@@ -1,0 +1,77 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.scar_h.shoot": {
+			"animation_length": 0.1875,
+			"bones": {
+				"bullet": {
+					"rotation": {
+						"0.0": [0, 0, 0],
+						"0.0625": [0, 0, 0],
+						"0.125": [-45, 0, 0],
+						"0.1875": [-130, 0, 0]
+					},
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0625": [-2, 3, 0],
+						"0.125": [-5, 1, 0],
+						"0.1875": [-8, -3, 0]
+					}
+				},
+				"flash": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0625": [0, 0, 2],
+						"0.125": [0, 0, 0]
+					},
+					"scale": {
+						"0.0": [1, 1, 1],
+						"0.0625": [8, 8, 1],
+						"0.125": [1, 1, 1]
+					}
+				}
+			}
+		},
+		"animation.scar_h.third_person": {
+			"loop": true,
+			"bones": {
+				"scar_h": {
+					"rotation": [-95, 0, 0],
+					"position": [-6, 14, 1],
+					"scale": 0.8
+				},
+				"leftArm": {
+					"position": [-1, -1, 0]
+				}
+			}
+		},
+		"animation.scar_h.first_person": {
+			"loop": true,
+			"bones": {
+				"scar_h": {
+					"rotation": [-270, 180, 180],
+					"position": [-7, 13, 6],
+					"scale": 1.5
+				},
+				"leftArm": {
+					"rotation": [-0.01423, 8.15306, 12.52652],
+					"position": [2, -2, 3]
+				},
+				"rightArm": {
+					"rotation": [7.5, 0, 0],
+					"position": [0, -3, 0]
+				}
+			}
+		},
+		"animation.scar_h_scope.first_person_sneaking_main_hand": {
+			"loop": true,
+			"bones": {
+				"rightArm": {
+					"rotation": [0, 0, 0],
+					"position": [0, 0, 0],
+					"scale": 0
+				}
+			}
+		}
+	}
+}

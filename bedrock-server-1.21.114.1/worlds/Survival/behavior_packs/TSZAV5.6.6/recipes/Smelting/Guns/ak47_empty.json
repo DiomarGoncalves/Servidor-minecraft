@@ -1,0 +1,13 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:ak47_empty"
+      },
+      "tags":[
+         "furnace"
+      ],
+      "input":"true:ak47_empty",
+      "output":"minecraft:iron_nugget"
+   }
+}

@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Made By:Dewdimpple/Amon28\nYoutube:Dewdimpple Aoi Ch.\nTwitter:@Dewdimpple",
+        "name": "Sorting Wand 1.21.20+ V3.1 Behavior Pack",
+        "uuid": "08bb68cf-e37f-450f-9845-bf4c5f00de41",
+        "version": [ 6,3,5 ],
+        "min_engine_version": [ 1, 21, 20 ]
+    },
+    "modules": [
+		 {
+		  "description": "JavaScript module code",
+		  "language": "javascript",
+		  "type": "script",
+		  "uuid": "34efa469-e22e-4b9d-a53d-2afa80d57362",
+		  "version": [6,3,5],
+		  "entry": "scripts/sort.js"
+		}
+    ],
+    "dependencies": [
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.13.0"
+		},
+        {
+            "uuid": "e204a7de-03ce-487d-b726-d543ace30827",
+            "version": [0, 0, 5]
+        }
+    ],
+	"metadata":{
+		"product_type": "addon"
+	}
+}

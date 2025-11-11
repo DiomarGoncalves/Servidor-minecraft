@@ -1,0 +1,28 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:attachable":{
+      "description":{
+         "identifier":"true:scuba_goggles.player",
+         "item":{
+            "true:scuba_goggles":"query.owner_identifier == 'minecraft:player'"
+         },
+         "materials":{
+            "default":"armor",
+            "enchanted":"armor_enchanted"
+         },
+         "textures":{
+            "default":"textures/armor/scuba_goggles",
+            "enchanted":"textures/misc/enchanted_item_glint"
+         },
+         "geometry":{
+            "default":"geometry.scuba_goggles"
+         },
+         "scripts":{
+            "parent_setup":"variable.helmet_layer_visible = 0.0;"
+         },
+         "render_controllers":[
+            "controller.render.armor"
+         ]
+      }
+   }
+}

@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.hk416_scope_4x": {
+      "textures": [
+        "texture.hk416"
+      ],
+      "geometry": "geometry.hk416_scope_4x",
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ]
+    }
+  }
+}

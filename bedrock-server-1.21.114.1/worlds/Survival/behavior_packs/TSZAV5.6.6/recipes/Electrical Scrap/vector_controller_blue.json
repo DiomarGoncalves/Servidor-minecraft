@@ -1,0 +1,20 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shapeless":{
+      "description":{
+         "identifier":"true:vector_controller_blue"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "ingredients":[
+         {
+            "item":"true:vector_controller_blue"
+         }
+      ],
+      "result":{
+         "item":"true:electrical_scrap",
+         "count":1
+      }
+   }
+}

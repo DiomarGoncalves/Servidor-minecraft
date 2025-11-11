@@ -1,0 +1,55 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"true:human_survivor",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/humans/human_1",
+            "human_2":"textures/entity/humans/human_2",
+            "human_3":"textures/entity/humans/human_3",
+            "human_4":"textures/entity/humans/human_4",
+            "human_5":"textures/entity/humans/human_5",
+            "human_6":"textures/entity/humans/human_6",
+            "human_7":"textures/entity/humans/human_7",
+            "human_8":"textures/entity/humans/human_8",
+            "human_9":"textures/entity/humans/human_9",
+            "human_10":"textures/entity/humans/human_10"
+         },
+         "geometry":{
+            "default":"geometry.human"
+
+         },
+         "animations":{
+            "look_at_target":"animation.common.look_at_target",
+            "idle":"animation.human.idle",
+            "walking":"animation.human.walking",
+            "attacking":"animation.human.attacking",
+            "pistol_hold":"animation.human.pistol_hold",
+            "human":"controller.animation.human",
+            "human_attacking":"controller.animation.human_attacking"
+         },
+         "scripts":{
+            "pre_animation":[
+               "variable.pistol = query.get_equipped_item_name('main_hand') == 'm9_npc';"
+            ],
+            "animate":[
+               "human",
+               "human_attacking",
+               {
+                  "pistol_hold":"variable.pistol && !query.is_moving"
+               }
+            ]
+         },
+         "spawn_egg":{
+            "texture":"human"
+         },
+         "render_controllers":[
+            "controller.render.human_survivor"
+         ],
+         "enable_attachables":true
+      }
+   }
+}

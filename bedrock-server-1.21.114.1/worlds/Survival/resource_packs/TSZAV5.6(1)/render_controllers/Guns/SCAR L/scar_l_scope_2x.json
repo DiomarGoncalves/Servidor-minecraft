@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.scar_l_scope_2x": {
+      "textures": [
+        "texture.scar_l"
+      ],
+      "geometry": "geometry.scar_l_scope_2x",
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ]
+    }
+  }
+}

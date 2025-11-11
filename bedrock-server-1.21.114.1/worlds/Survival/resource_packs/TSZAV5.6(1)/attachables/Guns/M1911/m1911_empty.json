@@ -1,0 +1,21 @@
+{
+   "format_version":"1.10",
+   "minecraft:attachable":{
+      "description":{
+         "identifier":"true:m1911_empty",
+         "materials":{
+            "default":"entity_alphatest",
+            "enchanted":"entity_alphatest_glint"
+         },
+         "textures":{
+            "default":"textures/guns/m1911/m1911"
+         },
+         "geometry":{
+            "default":"geometry.m1911"
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

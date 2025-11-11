@@ -1,0 +1,36 @@
+{
+   "format_version":"1.10.0",
+   "animation_controllers":{
+      "controller.animation.zombie_armless":{
+         "initial_state":"default",
+         "states":{
+            "default":{
+               "animations":[
+                  {
+                     "idle":"query.modified_move_speed <= 0.1 && !query.is_saddled"
+                  }
+               ],
+               "blend_transition":0.5,
+               "blend_via_shortest_path":true,
+               "transitions":[
+                  {
+                     "walking":"query.modified_move_speed > 0.1 && !query.is_saddled"
+                  }
+               ]
+            },
+            "walking":{
+               "animations":[
+                  "walking"
+               ],
+               "blend_transition":0.5,
+               "blend_via_shortest_path":true,
+               "transitions":[
+                  {
+                     "default":"query.modified_move_speed <= 0.1 && !query.is_saddled"
+                  }
+               ]
+            }
+         }
+      }     
+   }
+}

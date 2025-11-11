@@ -1,0 +1,45 @@
+{
+    "format_version": "1.21.60",
+    "minecraft:crafting_items_catalog": {
+      "categories": [
+        {
+          "category_name": "items",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "dustveyn:better_furnaces.copper_furnace",
+                "name": "dustveyn:better_furnaces.itemGroup.name.furnaces"
+              },
+              "items": [
+                "dustveyn:better_furnaces.copper_furnace",
+                "dustveyn:better_furnaces.iron_furnace",
+                "dustveyn:better_furnaces.gold_furnace",
+                "dustveyn:better_furnaces.amethyst_furnace",
+                "dustveyn:better_furnaces.emerald_furnace",
+                "dustveyn:better_furnaces.diamond_furnace",
+                "dustveyn:better_furnaces.obsidian_furnace",
+                "dustveyn:better_furnaces.netherite_furnace"
+              ]
+            }
+          ]
+        },
+        {
+          "category_name": "items",
+          "groups": [
+            {
+              "group_identifier": {
+                "icon": "dustveyn:better_furnaces.experience_upgrade",
+                "name": "dustveyn:better_furnaces.itemGroup.name.upgrades"
+              },
+              "items": [
+                "dustveyn:better_furnaces.experience_upgrade",
+                "dustveyn:better_furnaces.fuel_upgrade",
+                "dustveyn:better_furnaces.speed_upgrade",
+                "dustveyn:better_furnaces.instant_upgrade"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }

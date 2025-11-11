@@ -1,0 +1,56 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "better_furnaces:iron_furnace": {
+      "textures": "textures/Better-Furnaces/blocks/iron_furnace"
+    },
+    "better_furnaces:iron_furnace_on": {
+      "textures": "textures/Better-Furnaces/blocks/iron_furnace_on"
+    },
+    "better_furnaces:netherite_furnace": {
+      "textures": "textures/Better-Furnaces/blocks/netherite_furnace"
+    },
+    "better_furnaces:netherite_furnace_on": {
+      "textures": "textures/Better-Furnaces/blocks/netherite_furnace_on"
+    },
+    "better_furnaces:copper_furnace": {
+      "textures": "textures/Better-Furnaces/blocks/copper_furnace"
+    },
+    "better_furnaces:copper_furnace_on": {
+      "textures": "textures/Better-Furnaces/blocks/copper_furnace_on"
+    },
+    "better_furnaces:gold_furnace": {
+      "textures": "textures/Better-Furnaces/blocks/gold_furnace"
+    },
+    "better_furnaces:gold_furnace_on": {
+      "textures": "textures/Better-Furnaces/blocks/gold_furnace_on"
+    },
+    "better_furnaces:amethyst_furnace": {
+      "textures": "textures/Better-Furnaces/blocks/amethyst_furnace"
+    },
+    "better_furnaces:amethyst_furnace_on": {
+      "textures": "textures/Better-Furnaces/blocks/amethyst_furnace_on"
+    },
+    "better_furnaces:diamond_furnace": {
+      "textures": "textures/Better-Furnaces/blocks/diamond_furnace"
+    },
+    "better_furnaces:diamond_furnace_on": {
+      "textures": "textures/Better-Furnaces/blocks/diamond_furnace_on"
+    },
+    "better_furnaces:emerald_furnace": {
+      "textures": "textures/Better-Furnaces/blocks/emerald_furnace"
+    },
+    "better_furnaces:emerald_furnace_on": {
+      "textures": "textures/Better-Furnaces/blocks/emerald_furnace_on"
+    },
+    "better_furnaces:obsidian_furnace": {
+      "textures": "textures/Better-Furnaces/blocks/obsidian_furnace"
+    },
+    "better_furnaces:obsidian_furnace_on": {
+      "textures": "textures/Better-Furnaces/blocks/obsidian_furnace_on"
+    }
+  }
+}

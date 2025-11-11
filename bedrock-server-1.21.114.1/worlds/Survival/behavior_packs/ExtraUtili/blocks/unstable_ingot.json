@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:block": {
+		"description": {
+			"identifier": "extra_utilities:unstable_ingot"
+		},
+		"components": {
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "unstable_ingot",
+					"render_method": "alpha_test",
+					"face_dimming": false,
+					"ambient_occlusion": false
+				}
+			},
+			"minecraft:geometry": "geometry.animated_item"
+		}
+	}
+}

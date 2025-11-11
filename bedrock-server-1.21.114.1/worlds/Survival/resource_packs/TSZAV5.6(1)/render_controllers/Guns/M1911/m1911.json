@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.m1911": {
+      "textures": [
+        "texture.m1911"
+      ],
+      "geometry": "geometry.m1911",
+      "materials": [
+        {
+          "*": "material.default"
+        }
+      ]
+    }
+  }
+}

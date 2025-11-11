@@ -1,0 +1,21 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dustveyn:better_furnaces.blue_flame_7",
+      "menu_category": {
+        "category": "none"
+      }
+    },
+    "components": {
+      "minecraft:icon": {
+        "textures": {
+          "default": "better_furnaces:blue_flame_7"
+        }
+      },
+      "minecraft:display_name": {
+        "value": "arrow"
+      }
+    }
+  }
+}

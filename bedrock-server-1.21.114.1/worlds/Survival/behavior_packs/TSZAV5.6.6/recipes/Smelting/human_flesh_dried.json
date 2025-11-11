@@ -1,0 +1,13 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_furnace":{
+      "description":{
+         "identifier":"minecraft:human_flesh_dried"
+      },
+      "tags":[
+         "furnace"
+      ],
+      "input":"true:human_flesh",
+      "output":"true:human_flesh_dried"
+   }
+}

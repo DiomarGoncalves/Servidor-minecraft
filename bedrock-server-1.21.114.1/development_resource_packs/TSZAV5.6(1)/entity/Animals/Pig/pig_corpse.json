@@ -1,0 +1,32 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"true:pig_corpse",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/animals/pig/pig",
+            "skeleton":"textures/entity/animals/pig/skeleton"
+         },
+         "geometry":{
+            "default":"geometry.custom_pig"
+         },
+         "animations":{
+            "dead_1":"animation.pig_corpse.dead_1"
+         },
+         "scripts":{
+            "animate":[
+               {
+                  "dead_1":"query.is_sheared"
+               }
+            ]
+         },
+         "render_controllers":[
+            "controller.render.pig_corpse"
+         ],
+         "enable_attachables":true
+      }
+   }
+}

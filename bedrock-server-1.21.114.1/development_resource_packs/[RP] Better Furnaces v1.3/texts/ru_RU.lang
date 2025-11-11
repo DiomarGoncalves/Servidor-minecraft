@@ -1,0 +1,22 @@
+pack.description=§lРазработано §eDustVeyn.
+
+better_furnaces.iron_furnace.name=Железная печь
+better_furnaces.netherite_furnace.name=Незеритовая печь
+better_furnaces.copper_furnace.name=Медная печь
+better_furnaces.gold_furnace.name=Золотая печь
+better_furnaces.amethyst_furnace.name=Аметистовая печь
+better_furnaces.diamond_furnace.name=Алмазная печь
+better_furnaces.emerald_furnace.name=Изумрудная печь
+better_furnaces.obsidian_furnace.name=Обсидиановая печь
+
+better_furnaces.instant_upgrade.name=Мгновенное улучшение нагрева
+better_furnaces.instant_upgrade.txt=Мгновенно нагревает все предметы, которые может принять печь, если слот выхода пуст.
+better_furnaces.speed_upgrade.name=Улучшение скорости
+better_furnaces.speed_upgrade.txt=Увеличивает скорость печи на +1 за каждое установленное улучшение.
+better_furnaces.fuel_upgrade.name=Улучшение топлива
+better_furnaces.fuel_upgrade.txt=Топливо длится в 2 раза дольше.
+better_furnaces.experience_upgrade.name=Улучшение опыта
+better_furnaces.experience_upgrade.txt=При плавке предметов получаете в 2 раза больше опыта.
+
+dustveyn:better_furnaces.itemGroup.name.furnaces=§o§9Better Furnaces:§f Печи
+dustveyn:better_furnaces.itemGroup.name.upgrades=§o§9Better Furnaces:§f Улучшения

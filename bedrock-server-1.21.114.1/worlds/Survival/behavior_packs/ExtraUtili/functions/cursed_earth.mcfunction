@@ -1,0 +1,23 @@
+fill ~-3~-1~-3 ~3~-1~3 extra_utilities:cursed_earth replace grass_block
+fill ~-3~-2~-3 ~3~-2~3 extra_utilities:cursed_earth replace grass_block
+fill ~-3~-3~-3 ~3~-3~3 extra_utilities:cursed_earth replace grass_block
+fill ~-3~~-3 ~3~~3 extra_utilities:cursed_earth replace grass_block
+fill ~-3~1~-3 ~3~1~3 extra_utilities:cursed_earth replace grass_block
+fill ~-3~2~-3 ~3~2~3 extra_utilities:cursed_earth replace grass_block
+fill ~-3~3~-3 ~3~3~3 extra_utilities:cursed_earth replace grass_block
+fill ~-4~-1~-2 ~4~-1~2 extra_utilities:cursed_earth replace grass_block
+fill ~-4~-2~-2 ~4~-2~2 extra_utilities:cursed_earth replace grass_block
+fill ~-4~-3~-2 ~4~-3~2 extra_utilities:cursed_earth replace grass_block
+fill ~-4~~-2 ~4~~2 extra_utilities:cursed_earth replace grass_block
+fill ~-4~1~-2 ~4~1~2 extra_utilities:cursed_earth replace grass_block
+fill ~-4~2~-2 ~4~2~2 extra_utilities:cursed_earth replace grass_block
+fill ~-4~3~-2 ~4~3~2 extra_utilities:cursed_earth replace grass_block
+fill ~-2~-1~-4 ~2~-1~4 extra_utilities:cursed_earth replace grass_block
+fill ~-2~-2~-4 ~2~-2~4 extra_utilities:cursed_earth replace grass_block
+fill ~-2~-3~-4 ~2~-3~4 extra_utilities:cursed_earth replace grass_block
+fill ~-2~~-4 ~2~~4 extra_utilities:cursed_earth replace grass_block
+fill ~-2~1~-4 ~2~1~4 extra_utilities:cursed_earth replace grass_block
+fill ~-2~2~-4 ~2~2~4 extra_utilities:cursed_earth replace grass_block
+fill ~-2~3~-4 ~2~3~4 extra_utilities:cursed_earth replace grass_block
+effect @e[family=monster,r=9] speed infinite 1 false
+summon lightning_bolt ~~1~

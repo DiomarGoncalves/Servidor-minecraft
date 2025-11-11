@@ -1,0 +1,37 @@
+{
+   "format_version":"1.10.0",
+   "minecraft:client_entity":{
+      "description":{
+         "identifier":"true:german_shepherd",
+         "materials":{
+            "default":"entity_emissive_alpha"
+         },
+         "textures":{
+            "default":"textures/entity/animals/german_shepherd/german_shepherd",
+            "chested":"textures/entity/animals/german_shepherd/german_shepherd_chested"
+         },
+         "geometry":{
+            "default":"geometry.dog"
+         },
+         "animations":{
+            "look_at_target":"animation.common.look_at_target",
+            "idle":"animation.dog.idle",
+            "walking":"animation.dog.walking",
+            "sitting":"animation.dog.sitting",
+            "attacking":"animation.dog.attacking",
+            "dog_controller":"controller.animation.dog"
+         },
+         "scripts":{
+            "animate":[
+               "dog_controller"
+            ]
+         },
+         "spawn_egg":{
+            "texture":"dog"
+         },
+         "render_controllers":[
+            "controller.render.german_shepherd"
+         ]
+      }
+   }
+}

@@ -1,0 +1,27 @@
+{
+   "tiers":[
+      {
+         "trades":[
+            {
+               "wants":[
+                  {
+                     "item":"true:cascade_cm_mouthwash",
+                     "quantity":1
+                  },
+                  {
+                     "item":"true:cascade_fm_mouthwash",
+                     "quantity":1
+                  }
+               ],
+               "gives":[
+                  {
+                     "item":"true:razor_wire",
+                     "quantity":6
+                  }
+               ],
+               "max_uses":9999999
+            }
+         ]
+      }
+   ]
+}

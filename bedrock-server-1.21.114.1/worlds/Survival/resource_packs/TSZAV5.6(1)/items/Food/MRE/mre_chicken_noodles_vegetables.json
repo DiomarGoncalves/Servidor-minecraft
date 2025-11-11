@@ -1,0 +1,13 @@
+{
+  "format_version": "1.16",
+  "minecraft:item": {
+    "description": {
+      "identifier": "true:mre_chicken_noodles_vegetables",
+      "category": "Item"
+    },
+    
+    "components": {
+      "minecraft:icon": "mre_food_pack"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+   "format_version":"1.12",
+   "minecraft:recipe_shapeless":{
+      "description":{
+         "identifier":"true:tv_controller"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "ingredients":[
+         {
+            "item":"true:tv_controller"
+         }
+      ],
+      "result":{
+         "item":"true:electrical_scrap",
+         "count":1
+      }
+   }
+}

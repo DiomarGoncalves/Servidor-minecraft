@@ -1,0 +1,31 @@
+{
+   "format_version":"1.16",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"true:gunpowder"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "##B",
+         "A##",
+         "AA#"
+      ],
+      "key":{
+         "#":{
+            "item":"true:potassium_nitrate"
+         },
+         "A":{
+            "item":"true:sulfur"
+         },
+         "B":{
+            "item":"minecraft:charcoal"
+         }
+      },
+      "result":{
+         "item":"minecraft:gunpowder",
+         "count":2
+      }
+   }
+}

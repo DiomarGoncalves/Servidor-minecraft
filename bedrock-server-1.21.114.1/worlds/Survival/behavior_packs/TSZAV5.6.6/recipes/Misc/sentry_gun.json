@@ -1,0 +1,31 @@
+{
+   "format_version":"1.16",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"true:sentry_gun"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         " A ",
+         " B ",
+         " C "
+      ],
+      "key":{
+         "A":{
+            "item":"true:sentry_gun_barrel"
+         },
+         "B":{
+            "item":"true:sentry_gun_sensor"
+         },
+         "C":{
+            "item":"true:sentry_gun_base"
+         }
+      },
+      "result":{
+         "item":"true:sentry_gun_spawn_egg",
+         "count":1
+      }
+   }
+}

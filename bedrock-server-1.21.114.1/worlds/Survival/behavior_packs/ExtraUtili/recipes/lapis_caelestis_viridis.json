@@ -1,0 +1,33 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "extra_utilities:lapis_caelestis_viridis"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"AAA",
+			"ABA",
+			"AAA"
+		],
+		"key": {
+			"A": {
+				"item": "extra_utilities:green_stonebrick",
+				"data": 0
+			},
+			"B": {
+				"item": "extra_utilities:stable_ingot",
+				"data": 0
+			}
+		},
+		"result": [
+			{
+				"item": "extra_utilities:lapis_caelestis_viridis",
+				"data": 0,
+				"count": 4
+			}
+		]
+	}
+}

@@ -1,0 +1,31 @@
+{
+   "format_version":"1.16",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"true:backpack_magenta"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "B#B",
+         "B#B",
+         "#A#"
+      ],
+      "key":{
+         "#":{
+            "item":"minecraft:leather"
+         },
+         "A":{
+            "item":"true:paintbrush_magenta"
+         },
+         "B":{
+            "item":"minecraft:string"
+         }
+      },
+      "result":{
+         "item":"true:backpack_magenta_item",
+         "count":1
+      }
+   }
+}

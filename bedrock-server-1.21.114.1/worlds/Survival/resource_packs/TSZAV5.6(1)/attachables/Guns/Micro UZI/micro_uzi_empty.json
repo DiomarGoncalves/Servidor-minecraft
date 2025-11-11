@@ -1,0 +1,21 @@
+{
+   "format_version":"1.10",
+   "minecraft:attachable":{
+      "description":{
+         "identifier":"true:micro_uzi_empty",
+         "materials":{
+            "default":"entity_alphatest",
+            "enchanted":"entity_alphatest_glint"
+         },
+         "textures":{
+            "default":"textures/guns/micro_uzi/micro_uzi"
+         },
+         "geometry":{
+            "default":"geometry.micro_uzi"
+         },
+         "render_controllers":[
+            "controller.render.default"
+         ]
+      }
+   }
+}

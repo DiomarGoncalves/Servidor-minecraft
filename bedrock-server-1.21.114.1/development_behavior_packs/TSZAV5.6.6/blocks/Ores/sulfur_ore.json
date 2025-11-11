@@ -1,0 +1,26 @@
+{
+   "format_version":"1.21.0",
+   "minecraft:block":{
+      "description":{
+         "identifier":"true:sulfur_ore",
+         "menu_category":{
+            "category":"nature"
+         }
+      },
+      "components":{
+         "minecraft:loot":"loot_tables/blocks/ores/sulfur_ore.json",
+         "minecraft:destructible_by_mining":{
+            "seconds_to_destroy":0.8
+         },
+         "minecraft:map_color":"#FFFFFF",
+         "minecraft:light_emission":0,
+         "minecraft:material_instances":{
+            "*":{
+               "texture":"sulfur_ore",
+               "render_method":"alpha_test"
+            }
+         },
+         "minecraft:geometry":"geometry.block_generic"
+      }
+   }
+}

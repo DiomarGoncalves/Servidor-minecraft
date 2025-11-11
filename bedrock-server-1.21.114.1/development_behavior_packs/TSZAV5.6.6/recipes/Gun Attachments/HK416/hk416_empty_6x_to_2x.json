@@ -1,0 +1,33 @@
+{
+   "format_version":"1.16",
+   "minecraft:recipe_shaped":{
+      "description":{
+         "identifier":"true:hk416_empty_6x_to_2x"
+      },
+      "tags":[
+         "crafting_table"
+      ],
+      "pattern":[
+         "",
+         "A",
+         "#"
+      ],
+      "key":{
+         "#":{
+            "item":"true:hk416_scope_6x_empty"
+         },
+         "A":{
+            "item":"true:scope_2x"
+         }
+      },
+      "result":[
+         {
+            "item":"true:hk416_scope_2x_empty",
+            "count":1
+         },
+         {
+            "item":"true:scope_6x"
+         }
+      ]
+   }
+}

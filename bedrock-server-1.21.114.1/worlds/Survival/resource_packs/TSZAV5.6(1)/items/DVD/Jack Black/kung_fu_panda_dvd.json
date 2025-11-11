@@ -1,0 +1,12 @@
+{
+   "format_version":"1.16",
+   "minecraft:item":{
+      "description":{
+         "identifier":"true:kung_fu_panda_dvd",
+         "category":"Item"
+      },
+      "components":{
+         "minecraft:icon":"kung_fu_panda_dvd"
+      }
+   }
+}

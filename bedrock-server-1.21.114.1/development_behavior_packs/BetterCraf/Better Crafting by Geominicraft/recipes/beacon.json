@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:beacon"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "PPP",
+      "PDP",
+      "LLL"
+    ],
+    "key": {
+      "L": {
+        "item": "dirt"
+      },
+      "D": {
+        "item": "iron_ingot"
+      },
+      "P": {
+        "item": "dirt"
+      }
+    },
+    "result": {
+      "item": "beacon"
+    }
+  }
+}

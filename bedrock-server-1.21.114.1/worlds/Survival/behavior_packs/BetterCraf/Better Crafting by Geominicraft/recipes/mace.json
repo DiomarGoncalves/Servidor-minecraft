@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:mace"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      " H ",
+      " J ",
+      " L "
+    ],
+    "key": {
+      "H": {
+        "item": "dirt"
+      },
+      "J": {
+        "item": "dirt"
+      },
+      "L": {
+        "item": "dirt"
+      }
+    },
+    "result": {
+      "item": "mace",
+      "count": 1
+    }
+  }
+}

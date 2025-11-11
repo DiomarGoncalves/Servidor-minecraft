@@ -1,0 +1,49 @@
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.wings": {
+			"geometry": "geometry.wings",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.demon_wing"
+			]
+		},
+		"controller.render.golden_wing": {
+			"geometry": "geometry.wings",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.golden_wing"
+			]
+		},
+		"controller.render.butterfly_wing": {
+			"geometry": "geometry.wings",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.butterfly_wing"
+			]
+		},
+		"controller.render.feather_wing": {
+			"geometry": "geometry.wings",
+			"materials": [
+				{
+					"*": "material.default"
+				}
+			],
+			"textures": [
+				"texture.feather_wing"
+			]
+		}
+	}
+}

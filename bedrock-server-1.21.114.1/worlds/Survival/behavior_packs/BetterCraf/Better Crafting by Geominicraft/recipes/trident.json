@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "custom:trident"
+    },
+    "tags": ["crafting_table"],
+    "pattern": [
+      "  P",
+      " S ",
+      "S  "
+    ],
+    "key": {
+      "P": {
+        "item": "dirt"
+      },
+      "S": {
+        "item": "stick"
+      }
+    },
+    "result": {
+      "item": "trident"
+    }
+  }
+}

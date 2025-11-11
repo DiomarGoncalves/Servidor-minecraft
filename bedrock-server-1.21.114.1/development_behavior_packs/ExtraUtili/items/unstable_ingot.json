@@ -1,0 +1,21 @@
+{
+	"format_version": "1.21.40",
+	"minecraft:item": {
+		"description": {
+			"identifier": "extra_utilities:unstable_ingot"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Unstable Ingot\n§7ERROR: Divide by diamond\nThis ingot is highly unstable and will explode after 10 seconds.\nWill also explode if the crafting window is closed\nor the ingot is thrown on the ground.\nAdditionally these ingots do not stack\n - Do not craft unless ready - \n\nMust be crafted in a vanilla crafting table.\n§o§9Extra Utilities"
+			},
+			"minecraft:block_placer": {
+				"block": "extra_utilities:unstable_ingot",
+				"replace_block_item": true,
+				"use_on": [
+					"extra_utilities:unstable_ingot"
+				]
+			},
+			"minecraft:max_stack_size": 1
+		}
+	}
+}

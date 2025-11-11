@@ -1,0 +1,28 @@
+{
+   "format_version":"1.8.0",
+   "minecraft:spawn_rules":{
+      "description":{
+         "identifier":"true:crow",
+         "population_control":"animal"
+      },
+      "conditions":[
+         {
+            "minecraft:spawns_on_surface":{
+               
+            },
+            "minecraft:difficulty_filter":{
+               "min":"easy",
+               "max":"hard"
+            },
+            "minecraft:weight":{
+               "default":5
+            },
+            "minecraft:biome_filter":{
+               "test":"has_biome_tag",
+               "operator":"==",
+               "value":"overworld"
+            }
+         }
+      ]
+   }
+}

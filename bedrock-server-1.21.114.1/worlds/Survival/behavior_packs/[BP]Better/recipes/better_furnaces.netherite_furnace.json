@@ -1,0 +1,31 @@
+{
+  "format_version": "1.17.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+    "identifier": "recipe:better_furnaces.netherite_furnace"
+    },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+      "ABC",
+      " D "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:netherite_ingot"
+      },
+      "B": {
+        "item": "dustveyn:better_furnaces.obsidian_furnace"
+      },
+      "C": {
+        "item": "minecraft:netherite_upgrade_smithing_template"
+      },
+      "D": {
+        "item": "minecraft:soul_campfire"
+      }
+    },
+    "result": {
+      "item": "dustveyn:better_furnaces.netherite_furnace",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+   "format_version":"1.20.50",
+   "minecraft:item":{
+      "description":{
+         "identifier":"true:sharp_spear",
+         "menu_category":{
+            "category":"equipment",
+            "group":"itemGroup.name.equipment"
+         }
+      },
+      "components":{
+         "minecraft:max_stack_size":1,
+         "minecraft:hand_equipped":true,
+         "minecraft:durability":{
+            "max_durability":600,
+            "damage_chance":{
+               "min":1,
+               "max":2
+            }
+         },
+         "minecraft:mining_speed":2400,
+         "minecraft:damage":13,
+         "minecraft:icon":{
+            "texture":"sharp_spear"
+         },
+         "minecraft:display_name":{
+            "value":"§6MasterFox's§f Sharp Spear\n§cSharp Tool"
+         }
+      }     
+   }
+}
