@@ -1,9 +1,0 @@
-{
-   "resource_pack_name" : "vanilla",
-   "texture_data" : {
-	   "sorting_wand" : {
-         "textures" : "textures/sorting_wand"
-      }
-   },
-   "texture_name" : "atlas.items"
-}

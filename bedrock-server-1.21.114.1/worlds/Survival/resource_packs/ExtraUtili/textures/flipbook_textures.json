@@ -1,8 +1,0 @@
-[
-    {
-        "atlas_tile": "unstable_ingot",
-        "flipbook_texture": "textures/items/unstable_ingot",
-        "ticks_per_frame": 50,
-        "blend_frames": true
-    }
-]

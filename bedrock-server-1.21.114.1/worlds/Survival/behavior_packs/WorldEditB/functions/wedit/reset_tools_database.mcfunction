@@ -1,1 +1,0 @@
-scriptevent wedit:reset_tools_database
